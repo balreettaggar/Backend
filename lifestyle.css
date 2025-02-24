@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: poppins, sans-serif;
+}
+
+.header {
+    border: 1px solid black;
+}
+
+.header h1 {
+    border: 1px solid black;
+    padding-left: 2rem;
+    margin-top: 2rem;
+}
+
+.header p {
+    border: 1px solid black;
+    padding-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section {
+    border: 1px solid black;
+}
+
+.section h2 {
+    border: 1px solid black;
+    padding-left: 2rem;
+}
+
+.section .blogs {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.blogs .blog {
+    border: 2px solid black;
+    width: 27%;
+    /* text-align: end; */
+    height: 50vh;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.blog span {
+    /* display: inline-block; */
+    border: 1px solid black;
+    /* padding: 1.5rem; */
+    height: 9vh;
+}
+
+.blog .acad1 {
+    width: 23%;
+    /* height: 9vh; */
+}
+
+.blog .acad2 {
+    width: 23%;
+    /* height: 9vh; */
+}
+
+.blog .acad3 {
+    width: 23%;
+    /* height: 9vh; */
+}
+
+.blog .person {
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    border: 1px solid black; 
+    margin-bottom: 1rem;
+}
+
+.person .personInfo {
+    /* border: 1px solid black; */
+    /* height: 5vh; */
+    margin-right: 4rem;
+    /* width: 70%; */
+}
+
+.personInfo h4, p {
+    /* border: 1px solid black; */
+    margin: 0.5rem 0;
+}
+
+.blog .content {
+    overflow-y: scroll;
+    padding: 1rem 1rem;
+    height: 26vh;
+}
+
+.create {
+    margin-top: 1rem;
+    border: 1px solid black;
+}
+
+.create h2 {
+    /* margin-top: 1rem; */
+    margin-left: 1rem;
+    /* border: 1px solid black; */
+}
